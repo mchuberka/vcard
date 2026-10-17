@@ -12,7 +12,7 @@
             --subtext-color: #555555;
             --primary-btn: #0066cc;
             --secondary-btn: #28a745;
-            --email-btn: #f5a623;
+            --email-btn: #007aff;
             --email-btn-text: #ffffff;
             --outline-btn: #f0f0f5;
             --outline-btn-text: #222222;
@@ -69,7 +69,15 @@
         }
 
         h1 { margin: 8px 0 4px; font-size: 22px; }
-        p.title { color: var(--subtext-color); margin: 0 0 6px; font-size: 14px; font-weight: 500; }
+        
+        /* Updated p.title with bold font weight */
+        p.title { 
+            color: var(--subtext-color); 
+            margin: 0 0 6px; 
+            font-size: 14px; 
+            font-weight: 700; 
+        }
+
         p.bio { color: var(--subtext-color); margin: 0 0 20px; font-size: 13px; line-height: 1.4; }
 
         .btn-group { display: flex; gap: 10px; margin-bottom: 12px; }
@@ -100,15 +108,15 @@
 <body>
 
     <div class="card">
-        <!-- Optional Profile Picture -->
+        <!-- Profile Picture (Make sure image file on GitHub is named Headshot.jpg with capital H) -->
         <img src="Headshot.jpg" alt="Mark Chuberka" class="avatar">
 
         <h1>Mark Chuberka</h1>
         <p class="title">Sr. Solutions Architect at Elliott Davis</p>
         <p class="bio">Designing modern advanced analytics systems and tools with NSAW and OAC</p>
 
-        <!-- Main Save Action -->
-<a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AMark%20Chuberka%0AN%3AChuberka%3BMark%0AORG%3AElliott%20Davis%0ATITLE%3ASenior%20Solutions%20Architect%0AEMAIL%3Amark.chuberka%40elliottdavis.com%0ATEL%3A%2B15129051819%0AURL%3Ahttps%3A%2F%2Fwww.equifyadvisors.com%0ANOTE%3AMet%20via%203D%20printed%20QR%20business%20card.%0AEND%3AVCARD" download="Mark_Chuberka.vcf" class="btn btn-primary" style="margin-bottom: 12px;">Save Contact to Phone (.vcf)</a>
+        <!-- Main Save Action (No NOTE, Compatible URLs) -->
+        <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AMark%20Chuberka%0AN%3AChuberka%3BMark%0AORG%3AElliott%20Davis%0ATITLE%3ASr.%20Solutions%20Architect%20-%20Advanced%20Analytics%0AEMAIL%3Amark.chuberka%40elliottdavis.com%0ATEL%3A%2B1 512-905-1819%0AURL%3BTYPE%3DWORK%3Ahttps%3A%2F%2Fwww.elliottdavis.com%0AURL%3BTYPE%3DOTHER%3Ahttps%3A%2F%2Fwww.equifyadvisors.com%0AEND%3AVCARD" download="Mark_Chuberka.vcf" class="btn btn-primary" style="margin-bottom: 12px;">Save Contact to Phone (.vcf)</a>
 
         <!-- Quick Communication -->
         <div class="btn-group">
@@ -117,11 +125,6 @@
         </div>
 
         <!-- External Links & Web Resources -->
-        <a href="https://www.elliottdavis.com" target="_blank" class="btn btn-outline" style="margin-bottom: 8px;">🌐 Elliott Davis</a>
-        <a href="https://www.equifyadvisors.com" target="_blank" class="btn btn-outline" style="margin-bottom: 8px;">🌐 Advanced Analytics</a>
-        <a href="https://www.linkedin.com/in/markchuberka" target="_blank" class="btn btn-outline" style="margin-bottom: 8px;">🔗 Connect on LinkedIn</a>
-        <!-- <a href="https://maps.google.com/?q=100+Tech+Way+Austin+TX" target="_blank" class="btn btn-outline">📍 Office Location</a> -->
-    </div>
-
-</body>
-</html>
+        <a href="https://www.elliottdavis.com" target="_blank" class="btn btn-outline" style="margin-bottom: 8px;">🌐 ElliottDavis.com</a>
+        <a href="https://www.equifyadvisors.com" target="_blank" class="btn btn-outline" style="margin-bottom: 8px;">🌐 EquifyAdvisors.com</a>
+        <a href="https://www.linkedin.com/in/markchuberka" target="_
